@@ -99,13 +99,9 @@ UI elements are added to groups by calling the `add()` and `remove()` methods on
 group.getChildren().add(child);
 group.getChildren().remove(child);
 ```
-Groups 
 
-* [Java documentation for Group](https://docs.oracle.com/javase/10/docs/api/javafx/scene/Group.html)
+[Java documentation for Group](https://docs.oracle.com/javase/10/docs/api/javafx/scene/Group.html)
 
-The Streamline GUI uses two groups: a main group and a level group.
-
-![](./writeup_pics/group.png)
 
 ### Circle
 We recommend that you use the Circle class from the JavaFX library to make the trail dots.  Here’s a useful constructor:
