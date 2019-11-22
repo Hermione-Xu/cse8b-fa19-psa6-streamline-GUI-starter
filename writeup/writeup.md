@@ -50,7 +50,7 @@ public GameState(int height, int width, int playerRow, int playerCol, int goalRo
 public GameState(GameState other);
 void addRandomObstacles(int count);
 void rotateCounterClockwise();
-void moveUp();
+void moveLeft();
 void move(Direction direction);
 public String toString();
 public boolean equals(Object other);
